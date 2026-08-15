@@ -1,0 +1,87 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Temporary
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Database / Vector Store
+# =========================
+database/
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Trained Models
+# =========================
+trained_models/
+
+# =========================
+# User Uploaded Files
+# =========================
+uploads/
+outputs/
+results/
+
+# =========================
+# ML / Cache
+# =========================
+.cache/
+chroma/
+*.h5
+*.keras
+*.pt
+*.pth
+
+# =========================
+# Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+# Python cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/

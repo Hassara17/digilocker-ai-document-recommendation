@@ -1,0 +1,134 @@
+{
+  "vehicle": {
+    "keywords": [
+      "bike",
+      "motorcycle",
+      "scooter",
+      "car",
+      "vehicle",
+      "automobile",
+      "bought a bike",
+      "bought a car",
+      "purchased a bike",
+      "purchased a car",
+      "new vehicle",
+      "vehicle registration",
+      "driving license",
+      "vehicle insurance",
+      "challan"
+    ],
+    "documents": {
+      "Vehicle Registration": 0.65,
+      "Vehicle Insurance": 0.60,
+      "Driving License": 0.58,
+      "Challan": 0.55
+    },
+    "specific_rules": {
+      "registration": {
+        "Vehicle Registration": 0.50
+      },
+      "insurance": {
+        "Vehicle Insurance": 0.50
+      },
+      "license": {
+        "Driving License": 0.50
+      },
+      "challan": {
+        "Challan": 0.50
+      }
+    }
+  },
+
+  "tax": {
+    "keywords": [
+      "tax",
+      "income tax",
+      "itr",
+      "tds",
+      "salary tax",
+      "tax return",
+      "file tax",
+      "tax filing",
+      "income",
+      "tax documents"
+    ],
+    "documents": {
+      "Form 16": 0.65,
+      "TDS Certificate": 0.62,
+      "ePAN": 0.58,
+      "PAN Card": 0.55
+    },
+    "specific_rules": {
+      "income_tax": {
+        "Form 16": 0.30,
+        "TDS Certificate": 0.25,
+        "ePAN": 0.15
+      },
+      "tds": {
+        "TDS Certificate": 0.60
+      },
+      "pan": {
+        "PAN Card": 0.60,
+        "ePAN": 0.60
+      }
+    }
+  },
+
+  "education": {
+    "keywords": [
+      "school",
+      "college",
+      "student",
+      "education",
+      "marksheet",
+      "10th",
+      "12th",
+      "class x",
+      "class xii",
+      "degree",
+      "admission",
+      "study",
+      "academic",
+      "apaar"
+    ],
+    "documents": {
+      "Class X Marksheet": 0.65,
+      "Class XII Marksheet": 0.65,
+      "APAAR ID": 0.60,
+      "Degree Certificate": 0.58
+    },
+    "specific_rules": {
+      "10th": {
+        "Class X Marksheet": 0.80,
+        "Class XII Marksheet": 0.15,
+        "APAAR ID": 0.05,
+        "Degree Certificate": -0.20
+      },
+      "12th": {
+        "Class XII Marksheet": 0.80,
+        "Class X Marksheet": 0.15,
+        "APAAR ID": 0.05,
+        "Degree Certificate": -0.20
+      },
+      "school_marksheet": {
+        "Class X Marksheet": 0.40,
+        "Class XII Marksheet": 0.40
+      },
+      "degree": {
+        "Degree Certificate": 0.70
+      },
+      "apaar": {
+        "APAAR ID": 0.70
+      }
+    }
+  },
+
+  "general": {
+    "documents": {}
+  },
+
+  "ranking": {
+    "minimum_score": 0.15,
+    "maximum_recommendations": 5
+  }
+}

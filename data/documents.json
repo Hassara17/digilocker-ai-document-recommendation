@@ -1,0 +1,328 @@
+[
+  {
+    "category": "Category 1",
+    "documents": [
+      {
+        "document_name": "Driving License",
+        "doctype": "DRVLC",
+        "issuer_id": "000048",
+        "searchable": false
+      },
+      {
+        "document_name": "Vehicle Registration",
+        "doctype": "RVCER",
+        "issuer_id": "000048",
+        "searchable": false
+      },
+      {
+        "document_name": "Vehicle Insurance",
+        "doctype": "VHINSC",
+        "issuer_id": "000048",
+        "searchable": false
+      },
+      {
+        "document_name": "Challan",
+        "doctype": "CHALN",
+        "issuer_id": "000048",
+        "searchable": false
+      }
+    ]
+  },
+  {
+    "category": "Category 2",
+    "documents": [
+      {
+        "document_name": "Vehicle Registration",
+        "doctype": "RVCER",
+        "issuer_id": "000048",
+        "searchable": false
+      },
+      {
+        "document_name": "Vehicle Tax Receipt",
+        "doctype": "VHTAX",
+        "issuer_id": "000048",
+        "searchable": false
+      },
+      {
+        "document_name": "Vehicle Fitness Certificate",
+        "doctype": "FITCER",
+        "issuer_id": "000048",
+        "searchable": false
+      },
+      {
+        "document_name": "Vehicle Insurance",
+        "doctype": "VHINSC",
+        "issuer_id": "000048",
+        "searchable": false
+      },
+      {
+        "document_name": "Challan",
+        "doctype": "CHALN",
+        "issuer_id": "000048",
+        "searchable": false
+      }
+    ]
+  },
+  {
+    "category": "Category 3",
+    "documents": [
+      {
+        "document_name": "PAN Card",
+        "doctype": "PANCR",
+        "issuer_id": "001891",
+        "searchable": false
+      },
+      {
+        "document_name": "Form 16",
+        "doctype": "OSFRM",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "TDS Certificate",
+        "doctype": "TDCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "ePAN",
+        "doctype": "EPAND",
+        "issuer_id": "107922",
+        "searchable": false
+      },
+      {
+        "document_name": "Passport",
+        "doctype": "PSPRT",
+        "issuer_id": "002370",
+        "searchable": false
+      }
+    ]
+  },
+  {
+    "category": "Category 4",
+    "documents": [
+      {
+        "document_name": "Health Card/ Certificate",
+        "doctype": "RSBYC",
+        "issuer_id": "005663",
+        "searchable": false
+      },
+      {
+        "document_name": "Pradhan Mantri Jan Arogya Yojana",
+        "doctype": "PMJAY",
+        "issuer_id": "002778",
+        "searchable": false
+      },
+      {
+        "document_name": "Health Fitness Certificate",
+        "doctype": "FICER",
+        "issuer_id": "055854",
+        "searchable": false
+      },
+      {
+        "document_name": "Policy Document-Health",
+        "doctype": "PODOC",
+        "issuer_id": "",
+        "searchable": true
+      }
+    ]
+  },
+  {
+    "category": "Category 5",
+    "documents": [
+      {
+        "document_name": "UAN Card",
+        "doctype": "UNCRD",
+        "issuer_id": "002292",
+        "searchable": false
+      },
+      {
+        "document_name": "ePRAN Card",
+        "doctype": "EPRAN",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Pension Certificate",
+        "doctype": "PECER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Ration Card",
+        "doctype": "RATCR",
+        "issuer_id": "",
+        "searchable": true
+      }
+    ]
+  },
+  {
+    "category": "Class X Documents",
+    "documents": [
+      {
+        "document_name": "APAAR ID",
+        "doctype": "ABCID",
+        "issuer_id": "010212",
+        "searchable": false
+      },
+      {
+        "document_name": "Class X Marksheet",
+        "doctype": "SSCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Class X Passing Certificate",
+        "doctype": "SPCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Class X Migration Certificate",
+        "doctype": "SSMGR",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Class X School Leaving Certificate",
+        "doctype": "SSLCR",
+        "issuer_id": "",
+        "searchable": true
+      }
+    ]
+  },
+  {
+    "category": "Class XII Documents",
+    "documents": [
+      {
+        "document_name": "APAAR ID",
+        "doctype": "ABCID",
+        "issuer_id": "010212",
+        "searchable": true
+      },
+      {
+        "document_name": "Class XII Marksheet",
+        "doctype": "HSCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Class XII Passing Certificate",
+        "doctype": "HPCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Class XII Migration Certificate",
+        "doctype": "HSMGR",
+        "issuer_id": "",
+        "searchable": true
+      }
+    ]
+  },
+  {
+    "category": "Higher & Other Education Docs",
+    "documents": [
+      {
+        "document_name": "APAAR ID",
+        "doctype": "ABCID",
+        "issuer_id": "010212",
+        "searchable": false
+      },
+      {
+        "document_name": "Class I to IX Marksheets",
+        "doctype": "CEMST",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Degree Certificate",
+        "doctype": "DGCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Provisional Degree Certificate",
+        "doctype": "PRVCR",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Diploma Certificate",
+        "doctype": "DIPCR",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Bonafide Certificate",
+        "doctype": "BHCER",
+        "issuer_id": "",
+        "searchable": true
+      }
+    ]
+  },
+  {
+    "category": "Identity & Eligibility Docs",
+    "documents": [
+      {
+        "document_name": "Caste Certificate",
+        "doctype": "CTCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Income Certificate",
+        "doctype": "INCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Birth Certificate",
+        "doctype": "BTCER",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Ration Card",
+        "doctype": "RATCR",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "CKYC Card",
+        "doctype": "CKYCC",
+        "issuer_id": "065304",
+        "searchable": false
+      }
+    ]
+  },
+  {
+    "category": "Health & Medical Documents",
+    "documents": [
+      {
+        "document_name": "Covid Vaccine Certificate",
+        "doctype": "VACER",
+        "issuer_id": "003797",
+        "searchable": false
+      },
+      {
+        "document_name": "National Health ID Card",
+        "doctype": "",
+        "issuer_id": "",
+        "searchable": true
+      },
+      {
+        "document_name": "Pradhan Mantri Jan Arogya Yojana",
+        "doctype": "PMJAY",
+        "issuer_id": "002778",
+        "searchable": false
+      },
+      {
+        "document_name": "Insurance - Health",
+        "doctype": "HLIPC",
+        "issuer_id": "",
+        "searchable": true
+      }
+    ]
+  }
+]
