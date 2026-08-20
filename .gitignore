@@ -49,7 +49,9 @@ database/
 # =========================
 # Trained Models
 # =========================
-trained_models/
+trained_models/*
+!trained_models/xgb_model.pkl
+!trained_models/xgb_features.pkl
 
 # =========================
 # User Uploaded Files
